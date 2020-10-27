@@ -1,0 +1,91 @@
+@font-face {
+  font-family:"BebasNeue-Regular";
+  src: url(font/BebasNeue-Regular.ttf)
+}
+body {
+  margin: 0;
+}
+header {
+  font-family:"BebasNeue-Regular";
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+header .container {
+  width: 1170px;
+  /*padding: 0 15px;*/
+  margin: 0 auto;
+}
+.header-left {
+  float: left;
+}
+.header-logo {
+  
+  padding-top: 15px;
+  color: white;
+  font-size: 30px;
+  float: left;
+}
+.header-right {
+  float: right;
+  
+}
+.list-bab {
+  background-color: rgba(34, 49, 52, 0);
+  transition: all 0.5s;
+  font-size: 20px;
+  padding-right: 15px;
+}
+.list-bab:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right li,a {
+  line-height: 49px;
+  padding: 0 25px;
+  list-style: none;
+  float: right;
+}
+a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+.top-wrapper {
+  font-family:"BebasNeue-Regular";
+  
+}
+.top-wrapper .container{
+  height: 450px;
+  background-color:rgba(34, 49, 52, 0.9);
+  margin: 0 auto;
+  padding: 0 175px;
+  padding-bottom: 150px;
+}
+.logo {
+  padding-top: 100px;
+  float: left;
+}
+.kanan{
+  font-size: 25px;
+  color: white;
+  padding-top: 100px;
+  float: right;
+}
+.tombol-menu{
+  margin: 20px 0;
+}
+.lanjut{
+ margin-right: 80px;
+ background-color: #263538; 
+}
+.tombol {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.konten .container {
+  height: 500px;
+  background-color:#f7f7f7;
+}
