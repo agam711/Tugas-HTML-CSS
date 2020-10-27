@@ -89,3 +89,20 @@ a {
   height: 500px;
   background-color:#f7f7f7;
 }
+.footer-logo {
+	font-size:36px;
+	float:left;
+}
+
+.footer-list {
+	font-size:18px;
+	float:right;
+}
+
+.footer{
+	font-family:"BebasNeue-Regular";
+	background-color: #2f5167;
+  	color: #fff;
+  	height: 120px;
+  	padding: 40px;
+}
