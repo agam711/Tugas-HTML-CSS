@@ -1,6 +1,6 @@
 # Tugas-HTML-CSS
 Membuat laman Website Informasi Seputar Virus Covid-19
-  - Pengertian
+  - Tentang 
   - Penularan
   - Gejala
   - Pecegahan
