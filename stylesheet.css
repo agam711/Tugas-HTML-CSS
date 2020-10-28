@@ -1,6 +1,14 @@
 @font-face {
   font-family:"BebasNeue-Regular";
-  src: url(font/BebasNeue-Regular.ttf)
+  src: url(font/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family:"futura medium bt";
+  src: url(font/futura\ medium\ bt.ttf);
+}
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -10,10 +18,13 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top:10;
+  z-index: 10;
 }
-header .container {
+.container {
   width: 1170px;
-  /*padding: 0 15px;*/
+  padding: 0 15px;
   margin: 0 auto;
 }
 .header-left {
@@ -50,16 +61,15 @@ a {
   color: white;
   text-decoration: none;
 }
+    
 .top-wrapper {
   font-family:"BebasNeue-Regular";
-  
-}
-.top-wrapper .container{
-  height: 450px;
+  height: 680px;
   background-color:rgba(34, 49, 52, 0.9);
   margin: 0 auto;
   padding: 0 175px;
   padding-bottom: 150px;
+  border-bottom: 80px;
 }
 .logo {
   padding-top: 100px;
@@ -76,16 +86,118 @@ a {
 }
 .lanjut{
  margin-right: 80px;
- background-color: #263538; 
+ color: black;
+ background-color:rgba(255, 255, 255, 0.7);
+ cursor: pointer;
+ box-shadow: 12px 10px rgba(34, 49, 52, 0.9);
+ 
+}
+.lanjut:active {
+  box-shadow: none;
+  position: relative;
+  top: 10px;
+  left: 12px
 }
 .tombol {
   padding: 12px 24px;
-  color: white;
   display: inline-block;
   opacity: 0.8;
   border-radius: 10px;
 }
-.konten .container {
-  height: 500px;
+.konten {
   background-color:#f7f7f7;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.card{
+  height: 100%;
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  font-family: "futura medium bt";
+  color: black;
+  background-color: rgba(34, 49, 52, 0.9) ;
+}
+.card:hover {
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.2);
+}
+
+.title-konten {
+  background-color: rgba(34, 49, 52, 0.9) ;
+  word-spacing: 10px;
+  font-weight:300;
+  height: 10%;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 10px;
+  color: white;
+}
+.ikon {
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.detail-text {
+  height: 60%;
+  font-size: 15px;
+  text-align: justify;
+  padding: 15px 10px;
+  background-color:white ;
+  border-radius: 10px;
+}
+
+.list-penularan {
+  height: 5%;
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.5) ;
+  border-radius: 15px;
+}
+.list-penularan p{
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #f7f7f7;
+}
+.list-penularan p:hover{
+  display: block;
+  background-color: black;
+  color: white;
+}
+.list-gejala {
+  height: 5%;
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.5) ;
+  border-radius: 15px;
+}
+.list-gejala p{
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #f7f7f7;
+}
+.list-gejala p:hover{
+  display: block;
+  background-color: red;
+  color: white;
+}
+.list-pencegahan {
+  height: 5%;
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.5) ;
+  border-radius: 15px;
+}
+.list-pencegahan p{
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #f7f7f7;
+}
+.list-pencegahan p:hover{
+  display: block;
+  background-color: red;
+  color: white;
 }
